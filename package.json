@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run --spec cypress\\integration\\examples\\Test6.js",
-    "chromeTest" : "npm run test -- --browser chrome --headed"
+    "test": "node_modules\\.bin\\cypress run",
+    "chromeTest" : "npm run test -- --browser chrome --headed",
+    "runtests" : "npm run test --"
   },
   "author": "",
   "license": "ISC",
