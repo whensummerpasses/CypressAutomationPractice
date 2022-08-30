@@ -8,6 +8,9 @@
     "chromeTest": "npm run test -- --browser chrome --headed",
     "runtests": "npm run test --"
   },
+  "cypress-cucumber-preprocessor" : {
+    "nonGlobalStepDefinitions" : true
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
