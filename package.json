@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
-    "chromeTest" : "npm run test -- --browser chrome --headed",
-    "runtests" : "npm run test --"
+    "chromeTest": "npm run test -- --browser chrome --headed",
+    "runtests": "npm run test --"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "mochawesome": "^7.1.3"
   }
 }
